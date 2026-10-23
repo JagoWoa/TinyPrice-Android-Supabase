@@ -1,0 +1,7 @@
+project_id = "TinyPriceAndroidSupabase"
+
+# Configuración pública didáctica del codelab. Antes de distribuir: Auth y cuotas.
+[functions.search-products]
+enabled = true
+verify_jwt = false
+entrypoint = "./functions/search-products/index.ts"

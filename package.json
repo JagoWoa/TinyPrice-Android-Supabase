@@ -1,0 +1,15 @@
+{
+  "name": "tinyprice-android-supabase",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Herramientas del codelab TinyPrice; no se incluyen en el APK",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node --test tests/*.test.ts",
+    "supabase": "supabase"
+  },
+  "devDependencies": {
+    "supabase": "2.121.0"
+  }
+}
